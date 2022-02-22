@@ -6,13 +6,16 @@ import {
   SiJupyter,
   SiPostman,
   SiHeroku,
+  SiHtml5,
+  
 } from "react-icons/si";
+import { DiBootstrap, DiWindows } from "react-icons/di"
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <DiWindows/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
@@ -21,13 +24,14 @@ function Toolstack() {
         <SiJupyter />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <DiBootstrap />
       </Col>
     </Row>
   );
 }
+
 
 export default Toolstack;

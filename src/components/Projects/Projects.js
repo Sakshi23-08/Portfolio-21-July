@@ -9,6 +9,9 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import KeeperApp from "../../Assets/Projects/KeeperApp.jpg"
+import ToDo from "../../Assets/Projects/todo.jpg"
+import Graphics from "../../Assets/Projects/Graphics.png"
 
 function Projects() {
   return (
@@ -24,35 +27,35 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={KeeperApp}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Keeper App"
+              description="Personal Workspace to where users can maintain notes and modify them as and when required. It also allows the user to delete this notes. The notes can be stored with or without a title. This will give th eusers a facility to know the notes that they have maintained over a period of time."
+              link="https://github.com/Sakshi23-08/Keeper-App/tree/master"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ToDo}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="To Do List"
+              description="The To do List helps a person to make  alist of the chores/tasks that he wishes to fulfill in the coming few days. The list can be modified by the users as and when required. The users will be able to delete the tasks that they have already done or completed and also append some new tasks. "
+              link="https://github.com/Sakshi23-08/ToDo/tree/master"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Graphics}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Graphic Designing"
+              description="I have prepared some posters using Photoshop and some online sites. Other than this i have also contributed in designing logos for an event in the college. "
+              link="https://drive.google.com/drive/u/0/folders/182-dg8-b7QjsIlJghfbIwhASFZRKju2q"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -70,9 +73,9 @@ function Projects() {
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               link="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -81,7 +84,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
