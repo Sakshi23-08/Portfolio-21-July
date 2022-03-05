@@ -25,9 +25,6 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Coding
-            </li>
           </ul>
 
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
