@@ -10,8 +10,16 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+<link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
+
+
 function Home2() {
-  return (
+  return (        
+    
+    
+<div data-aos="fade-up" data-aos-anchor-placement="top-center">
+
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
@@ -113,6 +121,11 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    </div>
+
+
+
+
   );
 }
 export default Home2;

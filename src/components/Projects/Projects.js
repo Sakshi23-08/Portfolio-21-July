@@ -12,6 +12,7 @@ import bitsOfCode from "../../Assets/Projects/blog.png";
 import KeeperApp from "../../Assets/Projects/KeeperApp.jpg"
 import ToDo from "../../Assets/Projects/todo.jpg"
 import Graphics from "../../Assets/Projects/Graphics.png"
+import Krypt from "../../Assets/Projects/Krypt.jpg"
 
 function Projects() {
   return (
@@ -47,13 +48,25 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Graphics}
+              imgPath={Krypt}
               isBlog={false}
+              title="Web 3.0 Blockchain App"
+              description="Using Web 3.0 methodologies, Solidity and Metamask I have built a real Web 3.0 Application where you can transfer ETH after insatlling Metamask. The user will be able to treanfer the ETH to any account and the web app will keep atrack of all the transactions and you just need to connect your account for this."
+              link="https://github.com/Sakshi23-08/Krypt/tree/master"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Graphics}
+              isBlog={true}
               title="Graphic Designing"
               description="I have prepared some posters using Photoshop and some online sites. Other than this i have also contributed in designing logos for an event in the college. "
               link="https://drive.google.com/drive/u/0/folders/182-dg8-b7QjsIlJghfbIwhASFZRKju2q"
             />
           </Col>
+
+          
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
