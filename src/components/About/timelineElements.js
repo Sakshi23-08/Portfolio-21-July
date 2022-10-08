@@ -30,6 +30,7 @@ let timelineElements = [
       icon: "work"
     },
    
+   
   ];
   
   export default timelineElements;

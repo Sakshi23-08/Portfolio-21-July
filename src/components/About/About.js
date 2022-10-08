@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
+//import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Card from "./Card";
+// import Organization from './Organization';
 
 
 // ------------------Timeline Imports---------------------
@@ -93,15 +95,23 @@ function About() {
     </div>
   
 
+  
+
+  {/* --------------------------------------------------EXPERIENCE SECTION ----------------------------------------------- */}
+  <div style={{marginBottom: "5%", marginTop: "5%"}}>
+      <h1 className="title font-bold text-center  padding p-4  py-28 purple h1" style={{fontFamily: 'serif', fontSize: '50px', paddingTop: '1000px', marginTop: "8"}}>EXPERIENCE</h1>
+      <Card />
+
+  </div>
+      
+{/* ----------------------------Experience ENDS--------------------------------- */}
 
 
 
 
 
 
-
-
-    {/* -------------------------Timeline Ends------------------------------------- */}
+   
 
 
 
@@ -120,10 +130,15 @@ function About() {
         </h1>
         <Toolstack />
 
-        <Github />
+     
       </Container>
     </Container>
   );
 }
+
+
+
+
+
 
 export default About;
